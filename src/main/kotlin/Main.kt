@@ -5,6 +5,7 @@ package org.example
 fun main() {
     sayName("Alexey")
     sayAge(26)
+    sayHobby("Программирование")
 }
 
 fun sayName(name : String){
@@ -13,5 +14,9 @@ fun sayName(name : String){
 
 fun sayAge(age : Int){
     println("Тебе, $age лет")
+}
+
+fun sayHobby(hobby : String){
+    println("Твое хобби это $hobby")
 }
 
